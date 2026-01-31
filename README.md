@@ -251,4 +251,4 @@ The server accepts API keys via:
 
 ## License
 
-MIT
+GPL 3.0
