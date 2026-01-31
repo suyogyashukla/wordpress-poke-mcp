@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: wordpress-mcp
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: WORDPRESS_SITE_URL
+        sync: false
+      - key: WORDPRESS_USERNAME
+        sync: false
+      - key: WORDPRESS_APP_PASSWORD
+        sync: false
+      - key: API_KEY
+        sync: false
