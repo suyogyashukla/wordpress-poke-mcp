@@ -1,4 +1,4 @@
-# WordPress MCP Server
+# WordPress MCP Server for Poke.com's AI Assistant.
 
 An MCP (Model Context Protocol) server that connects AI agents to your WordPress site, enabling natural language management of posts, pages, comments, media, and settings.
 
